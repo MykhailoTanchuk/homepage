@@ -1,7 +1,7 @@
 import React from 'react';
 import {AiFillHome, AiOutlineFundProjectionScreen} from 'react-icons/ai';
 import {SiAboutdotme} from 'react-icons/si';
-
+import './Nav.module.css';
 const Nav = () => {
 
     return (
