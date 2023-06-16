@@ -12,7 +12,7 @@ const Header = () => {
 
                 <div className="p-4">
                     <a href={CV} download className="btn m-4">Download CV</a>
-                    <a href="" className="btn">Contact Me</a>
+                    <a href="" className="btn m-4">Contact Me</a>
                 </div>
 
                 <HeaderSocials/>
