@@ -4,7 +4,7 @@ import HeaderSocials from "./HeaderSocials";
 import Avatar from "./Avatar";
 const Header = () => {
     return (
-        <div className="flex flex-row">
+        <div id='header' className="flex flex-row">
             <div className="container flex flex-col items-center justify-center pt-24">
                 <h5>My name is</h5>
                 <h1>Mike Tanchuk</h1>
