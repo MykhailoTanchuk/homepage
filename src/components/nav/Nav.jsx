@@ -1,6 +1,7 @@
 import React from 'react';
 import {AiFillHome, AiOutlineFundProjectionScreen} from 'react-icons/ai';
 import {SiAboutdotme} from 'react-icons/si';
+import {CgWebsite} from 'react-icons/cg';
 
 const Nav = () => {
 
@@ -9,7 +10,7 @@ const Nav = () => {
             <a href="#header" className="bg-transparent p-2 rounded-full flex caret-blue-200 hover:bg-blue-950"> <AiFillHome size="2rem"/> </a>
             <a href="#about" className="bg-transparent p-2 rounded-full flex caret-blue-200 hover:bg-blue-950"> <SiAboutdotme size="2rem"/> </a>
             <a href="#skills" className="bg-transparent p-2 rounded-full flex caret-blue-200 hover:bg-blue-950"> <AiOutlineFundProjectionScreen size="2rem"/> </a>
-            <a href="" className="bg-transparent p-2 rounded-full flex caret-blue-200 hover:bg-blue-950"></a>
+            <a href="#portfolio" className="bg-transparent p-2 rounded-full flex caret-blue-200 hover:bg-blue-950"> <CgWebsite size={`2rem`}/></a>
 
         </nav>
     );
