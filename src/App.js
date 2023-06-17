@@ -6,6 +6,9 @@ import Experience from "./components/experience/Experience";
 import Portfolio from "./components/portfolio/Portfolio";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "./components/slider/Slider";
 
 
 function App() {
@@ -18,6 +21,7 @@ function App() {
             <Experience/>
             <Portfolio/>
             <Contact/>
+            <Slider/>
             <Footer/>
         </div>
     );

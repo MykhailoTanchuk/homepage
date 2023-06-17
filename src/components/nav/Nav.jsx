@@ -1,8 +1,10 @@
 import React from 'react';
-import {AiFillHome, AiOutlineFundProjectionScreen} from 'react-icons/ai';
+import {AiFillHome,  AiOutlineFundProjectionScreen} from 'react-icons/ai';
 import {SiAboutdotme} from 'react-icons/si';
 import {CgWebsite} from 'react-icons/cg';
 import {MdOutlineContactMail} from 'react-icons/md';
+import {GrCertificate} from "react-icons/gr";
+import {TbCertificate} from "react-icons/tb";
 
 const Nav = () => {
 
@@ -13,6 +15,7 @@ const Nav = () => {
             <a href="#skills" className="bg-transparent p-2 rounded-full flex caret-blue-200 hover:bg-blue-950"> <AiOutlineFundProjectionScreen size="2rem"/> </a>
             <a href="#portfolio" className="bg-transparent p-2 rounded-full flex caret-blue-200 hover:bg-blue-950"> <CgWebsite size={`2rem`}/></a>
             <a href="#contact" className="bg-transparent p-2 rounded-full flex caret-blue-200 hover:bg-blue-950"> <MdOutlineContactMail size={`2rem`}/></a>
+            <a href="#certificates" className="bg-transparent p-2 rounded-full flex caret-blue-200 hover:bg-blue-950"> <TbCertificate size={`2rem`}/></a>
 
         </nav>
     );
