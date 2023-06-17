@@ -2,7 +2,7 @@ import React from 'react';
 import {BsCheckAll} from 'react-icons/bs';
 
 const Experience = () => {
-    const frontEndSkills = ['HTML', 'CSS', 'JavaScript', "TypeScript", 'React.js', 'Redux', 'Tailwind CSS', "Next.JS"];
+    const frontEndSkills = ['HTML', 'CSS', 'JavaScript', "TypeScript", 'React.js', 'Redux', 'Tailwind CSS', "Next.JS", "Zustand"];
     const frontExperience = [
         'Experienced',
         'Experienced',
@@ -11,7 +11,8 @@ const Experience = () => {
         'Experienced',
         'Intermediate',
         'Experienced',
-        'Basic'
+        'Basic',
+        'Intermediate'
     ]
     const backEndSkills = ['Node.js', 'Express.js', 'MongoDB', 'PostgreSQL', 'Docker', 'tRPC', "Prisma"];
     const backExperience = [
@@ -23,7 +24,7 @@ const Experience = () => {
         'Intermediate',
         'Intermediate'
     ]
-    const generalSkills = ["OOP", "Functional Programming", "SOLID", "SQL", "REST API", "Git", "Vercel", "Postman", "Figma"];
+    const generalSkills = ["OOP", "Data Structures", "Functional Programming", "SOLID", "SQL", "REST API", "Git", "Vercel", "Postman", "Figma"];
     const generalExperience = [
         'Experienced',
         'Experienced',

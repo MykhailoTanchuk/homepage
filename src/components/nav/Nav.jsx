@@ -3,7 +3,6 @@ import {AiFillHome,  AiOutlineFundProjectionScreen} from 'react-icons/ai';
 import {SiAboutdotme} from 'react-icons/si';
 import {CgWebsite} from 'react-icons/cg';
 import {MdOutlineContactMail} from 'react-icons/md';
-import {GrCertificate} from "react-icons/gr";
 import {TbCertificate} from "react-icons/tb";
 
 const Nav = () => {
