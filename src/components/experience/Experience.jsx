@@ -45,8 +45,8 @@ const Experience = () => {
                     <h3 className="text-xl font-bold mb-4">Front-End</h3>
                     <div className="grid grid-cols-2 gap-4">
                         {frontEndSkills.map((skill, index) => (
-                            <div>
-                                <p key={index} className="text-yellow-400"><BsCheckAll/>{skill}</p>
+                            <div key={index}>
+                                <p  className="text-yellow-400"><BsCheckAll/>{skill}</p>
                                 <p className="text-xs text-gray-400">{frontExperience[index]}</p>
                             </div>
                         ))}
@@ -57,8 +57,8 @@ const Experience = () => {
                     <h3 className="text-xl font-bold mb-4">Back-End</h3>
                     <div className="grid grid-cols-2 gap-4">
                         {backEndSkills.map((skill, index) => (
-                            <div>
-                                <p key={index} className="text-emerald-400"><BsCheckAll/>{skill}</p>
+                            <div key={index}>
+                                <p  className="text-emerald-400"><BsCheckAll/>{skill}</p>
                                 <p className="text-xs text-gray-400">{backExperience[index]}</p>
                             </div>
                         ))}
@@ -69,8 +69,8 @@ const Experience = () => {
                     <h3 className="text-xl font-bold mb-4">General IT skills</h3>
                     <div className="grid grid-cols-2 gap-4">
                         {generalSkills.map((skill, index) => (
-                            <div>
-                                <p key={index} className="text-fuchsia-500"><BsCheckAll/>{skill}</p>
+                            <div key={index}>
+                                <p  className="text-fuchsia-500"><BsCheckAll/>{skill}</p>
                                 <p className="text-xs text-gray-400">{generalExperience[index]}</p>
                             </div>
                         ))}
