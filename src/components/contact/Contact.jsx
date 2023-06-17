@@ -10,15 +10,18 @@ const Contact = () => {
 
     const form = useRef();
 
+
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('service_yoitn3j', 'template_oznaupn', form.current, 'M4WptDbO7Xqx8hkP-')
+        emailjs.sendForm('service_id', 'template_id', e.target, 'public_key')
             .then((result) => {
                 console.log(result.text);
             }, (error) => {
                 console.log(error.text);
             });
+            e.target.reset();
+
     };
 
     return (
