@@ -20,6 +20,13 @@
   "intermediate": "Intermediate",
   "basic": "Basic",
   "portfolio_title": "Portfolio",
-  "website": "Website"
-
+  "website": "Website",
+  "contact_title": "Contact Me",
+  "on": "on",
+  "fullName": "Full Name",
+  "email": "Email",
+  "message": "Message",
+  "theme": "Theme",
+  "send": "Send Message",
+  "is_required": "is required"
 }

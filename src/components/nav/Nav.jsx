@@ -25,11 +25,11 @@ const NavBar = () => {
             </div>
             <div className="relative">
                 <select
-                    className="rounded-lg bg-transparent text-sm text-blue-500 hover:shadow-md"
+                    className="rounded-lg bg-transparent text-sm text-yellow-200 hover:shadow-md"
                     onChange={(event) => changeLanguage(event.target.value)}
                 >
-                    <option value="en">EN</option>
-                    <option value="ua">Укр</option>
+                    <option value="en" className={`bg-gray-400`}>EN</option>
+                    <option value="ua" className={`bg-gray-400`}>Укр</option>
                     {/* Add as many languages as you want */}
                 </select>
             </div>

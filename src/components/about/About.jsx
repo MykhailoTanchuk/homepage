@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React from 'react';
 import about_photo from '../../assets/about_photo.jpg';
 import {useTranslation} from "react-i18next";
 
