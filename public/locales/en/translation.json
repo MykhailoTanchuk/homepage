@@ -28,5 +28,7 @@
   "message": "Message",
   "theme": "Theme",
   "send": "Send Message",
-  "is_required": "is required"
+  "is_required": "is required",
+  "certificates_title": "Certificates",
+  "certificates_text": "Here are some of my certificates that I have received during my studies."
 }

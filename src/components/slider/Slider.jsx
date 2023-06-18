@@ -7,9 +7,12 @@ import image4 from '../../assets/image4.jpg';
 import image5 from '../../assets/image5.jpg';
 import image6 from '../../assets/image6.jpg';
 import image7 from '../../assets/image7.jpg';
+import {useTranslation} from "react-i18next";
 
 
 const ImageSlider = () => {
+    const {t} = useTranslation();
+
     let settings = {
         dots: true,
         infinite: true,
@@ -28,8 +31,8 @@ const ImageSlider = () => {
     return (
         <div id='certificates' className="w-full max-w-4xl mx-auto mt-6 shadow-lg rounded-xl overflow-hidden">
             <div className="bg-blue-500 text-white p-6">
-                <h2 className="text-2xl font-bold">Certificates</h2>
-                <p className="mt-2">Here are all the certificates I've received for my courses and more.</p>
+                <h2 className="text-2xl font-bold">{t(`certificates_title`)}</h2>
+                <p className="mt-2">{t(`certificates_text`)}</p>
             </div>
             <Slider {...settings}>
 
