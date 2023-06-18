@@ -2,6 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## index.html and styles.css is only for autotest
+
 ## How to start the project
 
 ### Clone the project to your local machine
