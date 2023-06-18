@@ -1,45 +1,48 @@
 import React from 'react';
 import {BsCheckAll} from 'react-icons/bs';
+import { useTranslation} from "react-i18next";
 
 const Experience = () => {
+    const {t} = useTranslation();
+
     const frontEndSkills = ['HTML', 'CSS', 'JavaScript', "TypeScript", 'React.js', 'Redux', 'Tailwind CSS', "Next.JS", "Zustand"];
     const frontExperience = [
-        'Experienced',
-        'Experienced',
-        'Experienced',
-        'Intermediate',
-        'Experienced',
-        'Intermediate',
-        'Experienced',
-        'Basic',
-        'Intermediate'
+        t(`experienced`),
+        t(`experienced`),
+        t(`experienced`),
+        t(`intermediate`),
+        t(`experienced`),
+        t(`intermediate`),
+        t(`experienced`),
+        t(`basic`),
+        t(`intermediate`),
     ]
     const backEndSkills = ['Node.js', 'Express.js', 'MongoDB', 'PostgreSQL', 'Docker', 'tRPC', "Prisma"];
     const backExperience = [
-        'Experienced',
-        'Experienced',
-        'Basic',
-        'Basic',
-        'Basic',
-        'Intermediate',
-        'Intermediate'
+        t(`experienced`),
+        t(`experienced`),
+        t(`basic`),
+        t(`basic`),
+        t(`basic`),
+        t(`intermediate`),
+        t(`intermediate`),
     ]
     const generalSkills = ["OOP", "Data Structures", "Functional Programming", "SOLID", "SQL", "REST API", "Git", "Vercel", "Postman", "Figma"];
     const generalExperience = [
-        'Experienced',
-        'Experienced',
-        'Intermediate',
-        'Intermediate',
-        'Experienced',
-        'Experienced',
-        'Experienced',
-        'Experienced',
-        'Basic'
+        t(`experienced`),
+        t(`experienced`),
+        t(`intermediate`),
+        t(`intermediate`),
+        t(`experienced`),
+        t(`experienced`),
+        t(`experienced`),
+        t(`experienced`),
+        t(`basic`),
     ]
 
     return (
         <div id='skills' className="pt-6 pb-20 mx-4 sm:mx-8 md:mx-16">
-            <h2 className="text-2xl font-bold mb-6">Skills</h2>
+            <h2 className="text-2xl font-bold mb-6">{t(`skills_title`)}</h2>
 
             <div className="flex flex-col md:flex-row space-y-6 md:space-y-0 md:space-x-6">
                 <div className="flex flex-col lg:w-1/2 bg-blue-700 bg-opacity-20 p-6 rounded-lg shadow-lg">
