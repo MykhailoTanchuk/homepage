@@ -3,5 +3,15 @@
   "name": "Mike Tanchuk",
   "title": "I am a Full-Stack Developer",
   "download": "Download CV",
-  "contact": "Contact Me"
+  "contact": "Contact Me",
+  "about_title": "About Me",
+  "about_text1": "Hello! I'm a Trainee Full Stack Developer with approximately five years of non-commercial experience in development. Over this time, I have honed my coding skills and built a strong foundation in software development.",
+  "about_text2": "In the past year, I have been immersing myself in web development, an exciting and dynamic field that I am deeply passionate about. I am currently focusing on mastering React for front-end development and Node.js for back-end, as I believe these technologies are pivotal in modern full stack development.",
+  "about_text3": "Moreover, I have a B2 English proficiency level, which means I'm equipped with the language skills needed to work effectively in professional environments, comprehend technical documentation, and collaborate in a global team.",
+  "about_text4": "My dedication to learning, coupled with my hands-on experience, makes me ready to tackle any challenges. I am committed to continuous growth, always eager to learn more and push the boundaries of what I can achieve as a developer.",
+  "about_text5": "Feel free to explore my portfolio, and do not hesitate to get in touch if you have any questions. I am always looking forward to new opportunities and collaborations.",
+  "education_title": "Education",
+  "education_text1": "Bachelor, National Taras Shevchenko University of Kyiv, Kyiv",
+  "education_date": "September 2021 — June 2025",
+  "education_text2": "Enrolled into Faculty of Computer Science and Cybernetics Taras Shevchenko National University of Kyiv. Relevant coursework in Web Development, Software Engineering, and Database Systems."
 }
