@@ -1,40 +1,43 @@
 import React from 'react';
 import {BsCheckAll} from 'react-icons/bs';
+import { useTranslation} from "react-i18next";
 
 const Experience = () => {
+    const {t} = useTranslation();
+
     const frontEndSkills = ['HTML', 'CSS', 'JavaScript', "TypeScript", 'React.js', 'Redux', 'Tailwind CSS', "Next.JS", "Zustand"];
     const frontExperience = [
-        'Experienced',
-        'Experienced',
-        'Experienced',
-        'Intermediate',
-        'Experienced',
-        'Intermediate',
-        'Experienced',
-        'Basic',
-        'Intermediate'
+        t(`experienced`),
+        t(`experienced`),
+        t(`experienced`),
+        t(`intermediate`),
+        t(`experienced`),
+        t(`intermediate`),
+        t(`experienced`),
+        t(`basic`),
+        t(`intermediate`),
     ]
     const backEndSkills = ['Node.js', 'Express.js', 'MongoDB', 'PostgreSQL', 'Docker', 'tRPC', "Prisma"];
     const backExperience = [
-        'Experienced',
-        'Experienced',
-        'Basic',
-        'Basic',
-        'Basic',
-        'Intermediate',
-        'Intermediate'
+        t(`experienced`),
+        t(`experienced`),
+        t(`basic`),
+        t(`basic`),
+        t(`basic`),
+        t(`intermediate`),
+        t(`intermediate`),
     ]
     const generalSkills = ["OOP", "Data Structures", "Functional Programming", "SOLID", "SQL", "REST API", "Git", "Vercel", "Postman", "Figma"];
     const generalExperience = [
-        'Experienced',
-        'Experienced',
-        'Intermediate',
-        'Intermediate',
-        'Experienced',
-        'Experienced',
-        'Experienced',
-        'Experienced',
-        'Basic'
+        t(`experienced`),
+        t(`experienced`),
+        t(`intermediate`),
+        t(`intermediate`),
+        t(`experienced`),
+        t(`experienced`),
+        t(`experienced`),
+        t(`experienced`),
+        t(`basic`),
     ]
 
     return (

@@ -13,5 +13,11 @@
   "education_title": "Education",
   "education_text1": "Bachelor, National Taras Shevchenko University of Kyiv, Kyiv",
   "education_date": "September 2021 — June 2025",
-  "education_text2": "Enrolled into Faculty of Computer Science and Cybernetics Taras Shevchenko National University of Kyiv. Relevant coursework in Web Development, Software Engineering, and Database Systems."
+  "education_text2": "Enrolled into Faculty of Computer Science and Cybernetics Taras Shevchenko National University of Kyiv. Relevant coursework in Web Development, Software Engineering, and Database Systems.",
+  "skills_title": "Skills",
+  "general": "General IT skills",
+  "experienced": "Experienced",
+  "intermediate": "Intermediate",
+  "basic": "Basic"
+
 }
