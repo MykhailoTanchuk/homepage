@@ -22,4 +22,6 @@ You may also see any lint errors in the console.
 
 ## Hosting
 
+[GitHubPages](https://deepkross.github.io/homepage/)
+
 Site is hosted using Vercel.  [HomePage](https://homepage-psi-lilac.vercel.app/)
