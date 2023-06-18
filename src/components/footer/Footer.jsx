@@ -1,10 +1,13 @@
 import { FaTelegramPlane, FaInstagram } from 'react-icons/fa';
+import {useTranslation} from "react-i18next";
 
 const Footer = () => {
+
+    const {t} = useTranslation();
     return (
         <div className="bg-black bg-opacity-50 py-6 px-4 shadow-lg mt-10 transition-colors duration-500">
-            <h2 className="text-2xl text-white font-bold mb-2">Mike Tanchuk</h2>
-            <p className="text-white mb-4">Full Stack Developer</p>
+            <h2 className="text-2xl text-white font-bold mb-2">{t(`name`)}</h2>
+            <p className="text-white mb-4">{t(`title`)}</p>
 
             <div className="flex justify-start space-x-4 mb-4">
                 <a
@@ -25,7 +28,7 @@ const Footer = () => {
                 </a>
             </div>
 
-            <p className="text-white">I look forward to hearing from you. Please feel free to reach out with any questions.</p>
+            <p className="text-white">{t(`footer`)}</p>
         </div>
     );
 };

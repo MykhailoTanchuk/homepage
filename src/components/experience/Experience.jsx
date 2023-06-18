@@ -42,7 +42,7 @@ const Experience = () => {
 
     return (
         <div id='skills' className="pt-6 pb-20 mx-4 sm:mx-8 md:mx-16">
-            <h2 className="text-2xl font-bold mb-6">Skills</h2>
+            <h2 className="text-2xl font-bold mb-6">{t(`skills_title`)}</h2>
 
             <div className="flex flex-col md:flex-row space-y-6 md:space-y-0 md:space-x-6">
                 <div className="flex flex-col lg:w-1/2 bg-blue-700 bg-opacity-20 p-6 rounded-lg shadow-lg">
