@@ -5,19 +5,22 @@ import { useTranslation} from "react-i18next";
 const Experience = () => {
     const {t} = useTranslation();
 
-    const frontEndSkills = ['HTML', 'CSS', 'JavaScript', "TypeScript", 'React.js', 'Redux', 'Tailwind CSS', "Next.JS", "Zustand"];
+    const frontEndSkills = ['HTML5', 'CSS3', "SCSS", 'JavaScript', "TypeScript", 'React.js', 'Redux', 'Tailwind CSS',
+        "Next.JS", "Zustand", "React Query"];
     const frontExperience = [
         t(`experienced`),
         t(`experienced`),
         t(`experienced`),
-        t(`intermediate`),
         t(`experienced`),
         t(`intermediate`),
         t(`experienced`),
-        t(`basic`),
+        t(`intermediate`),
+        t(`experienced`),
+        t(`intermediate`),
+        t(`intermediate`),
         t(`intermediate`),
     ]
-    const backEndSkills = ['Node.js', 'Express.js', 'MongoDB', 'PostgreSQL', 'Docker', 'tRPC', "Prisma"];
+    const backEndSkills = ['Node.js', 'Express.js', 'MongoDB', 'PostgreSQL', 'Docker', 'tRPC', "Prisma", "Mongoose", "OPENAI API", "Swagger", "Nest.js"];
     const backExperience = [
         t(`experienced`),
         t(`experienced`),
@@ -26,8 +29,12 @@ const Experience = () => {
         t(`basic`),
         t(`intermediate`),
         t(`intermediate`),
+        t(`intermediate`),
+        t(`experienced`),
+        t(`intermediate`),
+        t(`basic`),
     ]
-    const generalSkills = ["OOP", "Data Structures", "Functional Programming", "SOLID", "SQL", "REST API", "Git", "Vercel", "Postman", "Figma"];
+    const generalSkills = ["OOP", "Data Structures", "Functional Programming", "SOLID", "SQL", "REST API", "Git", "Vercel", "Postman", "Figma", "AWS S3"];
     const generalExperience = [
         t(`experienced`),
         t(`experienced`),
@@ -37,7 +44,9 @@ const Experience = () => {
         t(`experienced`),
         t(`experienced`),
         t(`experienced`),
+        t(`intermediate`),
         t(`basic`),
+        t(`experienced`),
     ]
 
     return (

@@ -17,7 +17,9 @@ const Portfolio = () => {
                             <h3 className="text-xl font-bold mb-2">{project.title}</h3>
                             <p className="text-gray-700 mb-4">{i18n.language === "en" ? project.description : project.descriptionUA}</p>
                             <div className="mt-auto">
-                                <a href={project.githubUrl} target="_blank" rel="noopener noreferrer" className="btn m-2">GitHub</a>
+                                <a href={project.githubUrl} target="_blank" rel="noopener noreferrer"
+                                   className={`btn m-2 ${project.gitHub ?
+                                       `bg-red-600 pointer-events-none` : ''}`}>GitHub</a>
                                 <a href={project.websiteUrl} target="_blank" rel="noopener noreferrer"
                                    className={`btn m-2 ${project.isDisabled ? 
                                        `bg-red-600 pointer-events-none` : ''}`}>{t(`website`)}</a>

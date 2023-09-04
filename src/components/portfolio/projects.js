@@ -1,5 +1,19 @@
 const projects = [
     {
+        image: "https://cdn2.vectorstock.com/i/1000x1000/78/26/restaurant-logo-design-vector-10067826.jpg",
+        title: "RESTio",
+        description: "Our team created a job manager in a restaurant to help with the communication between clients and staff." +
+            " The goal is to simplify the process of ordering, paying the bills and the work of administrators." +
+            " It is a fullstack app with a React frontend, Node.js backend and a MongoDB database.",
+        descriptionUA: "Наша команда хотіла створити менеджер по роботі ресторанів, а точніше по комунікації між клієнтами та працівниками." +
+        " Мета нашого продукту покращити комунікацію між персоналом та клієнтами, спростити процес замовлення та роботу адміністратора." +
+            "Це фулстек додаток з React фронтендом, Node.js бекендом та MongoDB базою даних.",
+        githubUrl: "",
+        websiteUrl: "https://restio-front.netlify.app/64c9f7904626278155af5599/tables/64d60026d5749542294474bd",
+        isDisabled: false,
+        gitHub: true,
+    },
+    {
         image:"https://img.freepik.com/free-vector/way-concept-illustration_114360-1191.jpg?w=2000",
         title: "Delipp",
         description: "This is a delivery app that is written on T3 stack (Typescript, tRPC, Prisma). It is a fullstack" +
@@ -21,7 +35,7 @@ const projects = [
         isDisabled: false,
     },
     {
-        image:"https://prismablog.vercel.app/blog/posts/2020-11-studio.png",
+        image:"https://www.prisma.io/illustrations/studio/studio-ui-dark.png",
         title: "SQL queries and tables",
         description: "This is website on T3 stack and PostgreSQL that uses Prisma for displaying info about workers and has" +
             "SQL queries for sorting info.",
